@@ -1,6 +1,5 @@
 'use client'
 import { Navlinks } from '@/constant/constant'
-import Link from 'next/link'
 import React, { useEffect } from 'react'
 import { MdDeliveryDining } from 'react-icons/md'
 import { HiBars3BottomRight } from 'react-icons/hi2'
