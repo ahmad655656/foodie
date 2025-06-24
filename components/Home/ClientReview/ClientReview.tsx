@@ -23,7 +23,7 @@ const responsive = {
 };
 const ClientReview = () => {
   return (
-    <div id="review" className="pt-16 pb-16">
+    <div id="reviews" className="pt-16 pb-16">
       <h1 className="text-xl sm:text-2xl text-center font-extrabold">
         What people say about us 
       </h1>

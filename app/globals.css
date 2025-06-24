@@ -4,7 +4,7 @@
 @layer components{
     .footer__link{
         @apply text-sm font-medium text-white hover:text-gray-400 cursor-pointer transition-colors duration-200
-    }
+    }   
 }
 
 @custom-variant dark (&:where(.dark, .dark *));

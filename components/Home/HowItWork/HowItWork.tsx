@@ -3,7 +3,7 @@ import HowItWorkCard from './HowItWorkCard'
 
 const HowItWork = () => {
   return (
-    <div className='pt-16 pb-16'>
+    <div id="work" className='pt-16 pb-16'>
         <h1 className='text-xl text-center font-extrabold sm:text-2xl'>
             Lets see how it works
         </h1>

@@ -1,7 +1,7 @@
 import { Navlinks } from "@/constant/constant";
-import Link from "next/link";
 import React from "react";
 import { CgClose } from 'react-icons/cg'
+import { Link as ScrollLink } from "react-scroll";
 
 type Props = {
   closeNav: () => void;
@@ -17,9 +17,9 @@ const MobileNav = ({showNav, closeNav}: Props) => {
       <div className={`${navOpen} text-white fixed justify-center flex flex-col h-full transform transition-all duration-500 delay-300 w-[80%] sm:w-[60%] bg-blue-950 space-y-6 z-[1050] `}>
         {Navlinks.map((link) => {
           return (
-            <Link href={link.url} key={link.id}>
-              <p className="text-white w-fit text-[20px] ml-12 border-b-[1.5px] pb-1 border-white ">{link.text}</p>
-            </Link>
+            <ScrollLink spy smooth to={link.url} key={link.id}>
+              <p className="text-white cursor-pointer w-fit text-[20px] ml-12 border-b-[1.5px] pb-1 border-white ">{link.text}</p>
+            </ScrollLink>
           );
         })}
         {/* Close icon */}

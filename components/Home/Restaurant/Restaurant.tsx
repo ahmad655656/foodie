@@ -3,7 +3,7 @@ import RestaurantCard from './RestaurantCard'
 
 const Restaurant = () => {
   return (
-    <div className='pt-16 pb-16'>
+    <div id="resturants" className='pt-16 pb-16'>
         {/* Section Heading */}
         <div className='text-xl sm:text-2xl text-center font-extrabold '>
             Available Restaurant Nearby Area

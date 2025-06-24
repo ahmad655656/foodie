@@ -40,7 +40,7 @@ const Nav = ({openNav}: Props) => {
          {Navlinks.map((link) => {
           return (
             <ScrollLink to={link.url} smooth spy key={link.id}>
-              <p className='text-black dark:text-white hover:text-green-700 dark:hover:text-green-400 font-bold transition-all duration-200'>{link.text}</p>
+              <p className='text-black dark:text-white cursor-pointer hover:text-green-700 dark:hover:text-green-400 font-bold transition-all duration-200'>{link.text}</p>
             </ScrollLink>
           )
         })}

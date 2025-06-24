@@ -4,7 +4,7 @@ import { FaApple, FaGooglePlay, FaLocationArrow } from 'react-icons/fa'
 import Image from 'next/image'
 const Hero = () => {
   return (
-    <div className='relative pt-16 w-full h-screen flex justify-center flex-col '>
+    <div id='hero' className='relative pt-16 w-full h-screen flex justify-center flex-col '>
         <div className='w-[90%] md:w-[80%] mx-auto grid grid-cols-1 items-center xl:grid-cols-2 gap-10 '>
             {/* Text Content */}
             <div data-aos="fade-up">
